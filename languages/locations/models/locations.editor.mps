@@ -31,6 +31,7 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="5266818545798688928" name="jetbrains.mps.lang.editor.structure.ShowBoundariesInStyleClassItem" flags="lg" index="1fO$WK" />
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
@@ -104,6 +105,15 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="1fO$WK" id="1hYq5cgQh_6" role="3F10Kt" />
+        <node concept="ljvvj" id="1hYq5cgQNkm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1hYq5cgQNkr" role="3EZMnx">
+        <ref role="1k5W1q" to="tpco:3VARyd8XcQs" resolve="Comment" />
+        <node concept="VPxyj" id="1hYq5cgQZDw" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="1hYq5cgQ1bn" role="2iSdaV" />
     </node>
@@ -142,6 +152,14 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="1fO$WK" id="1hYq5cgQ5sG" role="3F10Kt" />
+        <node concept="ljvvj" id="1hYq5cgQRqG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1hYq5cgQRr1" role="3EZMnx">
+        <node concept="VPxyj" id="1hYq5cgQZDy" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="1hYq5cgQ1cL" role="2iSdaV" />
     </node>
