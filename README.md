@@ -4,7 +4,7 @@ This branch has an implementation that uses context assistant in each collection
 
 Drawback of this approach is that we have to navigate higher in the tree to add a state/country node. Also the context assitant may be distracting. Intentions may be better, but it is not visibly discoverable.
 
-countries:
+```countries:
   country United States
     states:
       state California
@@ -18,3 +18,4 @@ countries:
   country India
     states:
       << ... >>
+```
