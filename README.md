@@ -2,7 +2,7 @@ This is a sample Jetbrains MPS language project to test and improve the editing 
 
 We will use the Locations concept laid out below for testing. The current editing experience is not very intuitive.
 
-countries:
+```countries:
   country United States
     states:
       state California
@@ -16,3 +16,4 @@ countries:
   country India
     states:
       << ... >>
+```
