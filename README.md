@@ -4,7 +4,7 @@ This branch has an implementation that uses an empty constant (on a separate lin
 
 Drawback of this approach is that the empty constant takes up an extra line, and we need one for each collection. So two extra lines between countries.
 
-countries:
+```countries:
   country United States
     states:
       state California
@@ -21,3 +21,4 @@ countries:
   country India
     states:
       << ... >>
+```
